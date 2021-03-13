@@ -1,0 +1,26 @@
+HTML
+<!DOCTYPE html>
+
+<head>
+   <link rel="stylesheet" href="MiniWord.css">
+    <script src="MiniWord.js"></script>
+</head>
+<body>
+    <div id="note_header">
+        TEST
+      </div>
+    <form name="tester">
+        <input type="text" value="Saisir un text" id ="c">
+
+        <input type="number" id="input" value="Saisir un nombre" onkeyup="changeTextSize()">
+        <select id="select_font" onchange="changeFont(this);">
+            <option value="Arial">Arial</option>
+            <option value="Sans Serif" selected>Sans Serif</option>
+            <option value="Comic Sans MS">Comic Sans MS</option>
+            <option value="Times New Roman">Times New Roman</option>
+            <option value="Verdana">Verdana</option>
+            <option value="Impact">Impact</option>
+        </select>
+    </form>
+</body>
+</html>
