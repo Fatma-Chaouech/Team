@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+
+<head>
+    <script>
+        function func()
+        {
+            document.getElementById("element").style.color='#'+(Math.random()*0xFFFFFF<<0).toString(16);
+        }
+    </script>
+
+</head>
+
+    <ol>
+        <li id="element" onclick="func()">
+        element
+        </li>
+        
+    </ol>
+</body>
+</html>
