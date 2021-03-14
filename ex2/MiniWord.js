@@ -7,5 +7,6 @@ function changeTextSize() {
   document.getElementById("note_header").style.fontSize = input + "px";
 }
 function changeColor() {
-  document.getElementById("note_header").style.color = document.getElementById("couleur");
+  document.getElementById("note_header").style.color = document.getElementById("couleur").value;
 }
+  

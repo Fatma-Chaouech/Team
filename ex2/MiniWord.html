@@ -1,15 +1,15 @@
 <!DOCTYPE html>
 
 <head>
-   <link rel="stylesheet" href="MiniWord.css">
+    <link rel="stylesheet" href="MiniWord.css">
     <script src="MiniWord.js"></script>
 </head>
 <body>
-    <div id="note_header">
+    <p id="note_header">
         TEST
-    </div>
+    </p>
     <form name="tester">
-        <input type="color" id ="couleur" onclick="changeColor()">
+        <input type="color" id ="couleur" onchange="changeColor()">
 
         <input type="number" id="input" value="Saisir un nombre" onchange="changeTextSize()">
         <select id="select_font" onchange="changeFont(this);">
@@ -20,6 +20,8 @@
             <option value="Verdana">Verdana</option>
             <option value="Impact">Impact</option>
         </select>
+        
+
     </form>
 </body>
 </html>
