@@ -1,42 +1,32 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>ToDoList</title>
-</head>
-<body>
-    <form >
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="ex.css" />
+    </head>
+    <body>
 
-        <fieldset>
-        <legend>calendier</legend>
-        <h2>Ajout de taches</h2>
-        <p>
-            <div>
-            <label id="jour">donner le jour</label> : 
-            <input type="text" name="jour" id="injour" />
-             </div>
+        <div id="myDIV" class="header">
+            <h2 style="margin:5px">My To Do List</h2>
+            <p>Date:</p> 
             <br>
-            <div>
-            <label id="tache">donner la tache</label> : 
-            <input type="text" name="teche" id="intache" />
-             </div>
-             <div>
-             <button type="ajouter" class="btn btn-primary">Ajouter la tache</button>
-            </div>
-        </p>
-    </form>
-    <h2>Mes taches </h2>
-    <div class="tache">
-        tache
-        <i class="fa fa-trash-alt" aria-hidden="true"></i>
-        <i class="fa fa-check-alt" aria-hidden="true"></i>
-    </div>
-    <div class="tache">
-        tache
-        <i class="fa fa-trash" aria-hidden="true"></i>
-        <i class="fa fa-trash" aria-hidden="true"></i>
+            <input type="text" id="myInput1" placeholder="Title...">
+            <br>
+            <p>task:</p>
+            <br>
+            <input type="text" id="myInput2" placeholder="Title...">
+            <br>
+            <br>
 
-    </div>
-    <script type)></script>
-</body>
+            <br>
+        <button type="button"  onclick="newElement()" class="addBtn" >Add ToDos</button>
+        </div>
+
+        <ul id="myUL">
+
+        </ul>
+
+        <script src="ex.js"></script>
+
+    </body>
 </html>
